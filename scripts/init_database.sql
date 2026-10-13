@@ -29,8 +29,8 @@ CREATE DATABASE datawarehouse;
 -- Connect to the 'datawarehouse' database in DBeaver
 -- before executing the statements below.
 
-CREATE SCHEMA IF NOT EXISTS bronze;
+CREATE SCHEMA bronze;
 
-CREATE SCHEMA IF NOT EXISTS silver;
+CREATE SCHEMA silver;
 
-CREATE SCHEMA IF NOT EXISTS gold;
+CREATE SCHEMA gold;
